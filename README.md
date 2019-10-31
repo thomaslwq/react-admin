@@ -1,4 +1,6 @@
-#A free admin template for React
+# A free admin template for React
+## snapshot
+![snapshot](https://github.com/thomaslwq/react-admin/blob/master/project/admin.jpg)
 
 ## Available Scripts
 
