@@ -2,6 +2,7 @@
   "short_name": "React-Admin",
   "name": "react-admin",
   "icons": [
+
   ],
   "start_url": ".",
   "display": "standalone",
