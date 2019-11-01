@@ -4,7 +4,7 @@ import DashBoard1 from "../dashboard/Dashboard1"
 import DashBoard2 from "../dashboard/Dashboard2"
 
 
-import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom'
+import {BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom'
 const PageContent = () => {
   return (
     <div>
@@ -14,6 +14,7 @@ const PageContent = () => {
           <Route path="/" exact component={DashBoard} ></Route>
           <Route path="/Dashboard1"  exact component={DashBoard1}></Route>
           <Route path="/Dashboard2"  exact component={DashBoard2}></Route>
+          <Redirect to="/"></Redirect>
         </Switch>
         {/* /page content */}
       </Router>
