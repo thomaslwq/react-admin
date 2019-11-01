@@ -8,7 +8,6 @@ export default class Sidemenu extends Component {
   initSidebar = () => {
     const CURRENT_URL = window.location.href.split('#')[0].split('?')[0],
     $BODY = $('body'),
-    $MENU_TOGGLE = $('#menu_toggle'),
     $SIDEBAR_MENU = $('#sidebar-menu'),
     $SIDEBAR_FOOTER = $('.sidebar-footer'),
     $LEFT_COL = $('.left_col'),
@@ -77,38 +76,7 @@ export default class Sidemenu extends Component {
         }
       });
 
-    // toggle small or large menu
-    $MENU_TOGGLE.on('click', function () {
-      console.log('clicked - menu toggle');
 
-      if ($BODY.hasClass('nav-md')) {
-        $SIDEBAR_MENU
-          .find('li.active ul')
-          .hide();
-        $SIDEBAR_MENU
-          .find('li.active')
-          .addClass('active-sm')
-          .removeClass('active');
-      } else {
-        $SIDEBAR_MENU
-          .find('li.active-sm ul')
-          .show();
-        $SIDEBAR_MENU
-          .find('li.active-sm')
-          .addClass('active')
-          .removeClass('active-sm');
-      }
-
-      $BODY.toggleClass('nav-md nav-sm');
-
-      setContentHeight();
-
-      $('.dataTable').each(function () {
-        $(this)
-          .dataTable()
-          .fnDraw();
-      });
-    });
 
     // check active menu
     $SIDEBAR_MENU
@@ -158,7 +126,7 @@ export default class Sidemenu extends Component {
             border: 0
           }}>
             <a href="index.html" className="site_title"><i className="fa fa-paw"/>
-              <span>Gentelella Alela!</span>
+              <span>React Admin!</span>
             </a>
           </div>
           <div className="clearfix"/> {/* menu profile quick info */}
