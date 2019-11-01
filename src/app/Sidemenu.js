@@ -1,9 +1,12 @@
 import React, {Component} from 'react'
 import $ from "jquery"
+import debounce from 'react-debouncing';
 export default class Sidemenu extends Component {
 
   /* 初始化菜单 */
-
+  constructor(props){
+    super(props);
+  }
   // Sidebar
   initSidebar = () => {
     const CURRENT_URL = window.location.href.split('#')[0].split('?')[0],
@@ -75,9 +78,9 @@ export default class Sidemenu extends Component {
           });
         }
       });
-
-
-
+    //deboucing
+    $(window).bind("resize",debounce(setContentHeight,100));
+  
     // check active menu
     $SIDEBAR_MENU
       .find('a[href="' + CURRENT_URL + '"]')

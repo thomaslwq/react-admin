@@ -7786,6 +7786,11 @@ prepend-http@^1.0.0:
   resolved "https://registry.npm.taobao.org/prepend-http/download/prepend-http-1.0.4.tgz#d4f4562b0ce3696e41ac52d0e002e57a635dc6dc"
   integrity sha1-1PRWKwzjaW5BrFLQ4ALlemNdxtw=
 
+prettier@^1.18.2:
+  version "1.18.2"
+  resolved "https://registry.npm.taobao.org/prettier/download/prettier-1.18.2.tgz#6823e7c5900017b4bd3acf46fe9ac4b4d7bda9ea"
+  integrity sha1-aCPnxZAAF7S9Os9G/prEtNe9qeo=
+
 pretty-bytes@^5.1.0:
   version "5.3.0"
   resolved "https://registry.npm.taobao.org/pretty-bytes/download/pretty-bytes-5.3.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fpretty-bytes%2Fdownload%2Fpretty-bytes-5.3.0.tgz#f2849e27db79fb4d6cfe24764fc4134f165989f2"
@@ -8024,6 +8029,13 @@ react-app-polyfill@^1.0.4:
     raf "3.4.1"
     regenerator-runtime "0.13.3"
     whatwg-fetch "3.0.0"
+
+react-debouncing@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.npm.taobao.org/react-debouncing/download/react-debouncing-1.0.2.tgz#cf39ebaf16c5e8b11ee50751dff7a8063d287038"
+  integrity sha1-zznrrxbF6LEe5QdR3/eoBj0ocDg=
+  dependencies:
+    prettier "^1.18.2"
 
 react-dev-utils@^9.1.0:
   version "9.1.0"
@@ -8809,6 +8821,11 @@ slice-ansi@^2.1.0:
     ansi-styles "^3.2.0"
     astral-regex "^1.0.0"
     is-fullwidth-code-point "^2.0.0"
+
+smartresize.js@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.npm.taobao.org/smartresize.js/download/smartresize.js-0.0.1.tgz#888da913727ef142a674107a95e0f9131f1ead61"
+  integrity sha1-iI2pE3J+8UKmdBB6leD5Ex8erWE=
 
 snapdragon-node@^2.0.1:
   version "2.1.1"
