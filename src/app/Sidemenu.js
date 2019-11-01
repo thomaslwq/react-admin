@@ -128,7 +128,7 @@ export default class Sidemenu extends Component {
           <div className="navbar nav_title" style={{
             border: 0
           }}>
-            <a href="index.html" className="site_title"><i className="fa fa-paw"/>
+            <a href="/" className="site_title"><i className="fa fa-paw"/>
               <span>React Admin!</span>
             </a>
           </div>
@@ -154,13 +154,13 @@ export default class Sidemenu extends Component {
                     <span className="fa fa-chevron-down"/></a>
                   <ul className="nav child_menu">
                     <li>
-                      <a href="index.html">Dashboard</a>
+                      <a href="/">Dashboard</a>
                     </li>
                     <li>
-                      <a href="index2.html">Dashboard2</a>
+                      <a href="/Dashboard1">Dashboard1</a>
                     </li>
                     <li>
-                      <a href="index3.html">Dashboard3</a>
+                      <a href="/Dashboard2">Dashboard2</a>
                     </li>
                   </ul>
                 </li>
