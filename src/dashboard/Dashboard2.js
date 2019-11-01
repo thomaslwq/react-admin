@@ -138,7 +138,7 @@ export default class Dashboard2 extends Component {
                                 </th>
                                 <th>
                                 <div className="col-lg-7 col-md-7 col-sm-7 col-xs-7">
-                                    <p className>Device</p>
+                                    <p >Device</p>
                                 </div>
                                 <div className="col-lg-5 col-md-5 col-sm-5 col-xs-5">
                                     <p className>Progress</p>
