@@ -1,6 +1,9 @@
 # A free admin template for React
 ## snapshot
 ![snapshot](https://github.com/thomaslwq/react-admin/blob/master/project/admin.jpg)
+## How to begin?
+> npm install
+> yarn start
 
 ## Available Scripts
 
