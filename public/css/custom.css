@@ -1447,7 +1447,6 @@ a:hover, a:focus {
   border-radius: 50%; }
 
 .nav-md ul.nav.child_menu li:after {
-  border-left: 1px solid #425668;
   bottom: 0;
   content: "";
   left: 27px;

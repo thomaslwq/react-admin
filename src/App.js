@@ -3,6 +3,8 @@ import Navigation from "./app/Navigation"
 import PageContent from "./app/PageContent"
 import Footer from "./app/Footer"
 import Sidemenu from "./app/Sidemenu"
+
+
 export default class App extends Component{
   render(){
     return (
@@ -21,3 +23,5 @@ export default class App extends Component{
     )
   }
 }
+
+
