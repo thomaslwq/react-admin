@@ -170,22 +170,22 @@ export default class Sidemenu extends Component {
                     <span className="fa fa-chevron-down"/></a>
                   <ul className="nav child_menu">
                     <li>
-                      <a href="form.html">General Form</a>
+                      <a href="/form">General Form</a>
                     </li>
                     <li>
-                      <a href="form_advanced.html">Advanced Components</a>
+                      <a href="/formAdvance">Advanced Components</a>
                     </li>
                     <li>
-                      <a href="form_validation.html">Form Validation</a>
+                      <a href="/formValidation">Form Validation</a>
                     </li>
                     <li>
-                      <a href="form_wizards.html">Form Wizard</a>
+                      <a href="/formWizards">Form Wizard</a>
                     </li>
                     <li>
-                      <a href="form_upload.html">Form Upload</a>
+                      <a href="/formUpload">Form Upload</a>
                     </li>
                     <li>
-                      <a href="form_buttons.html">Form Buttons</a>
+                      <a href="/formButtons">Form Buttons</a>
                     </li>
                   </ul>
                 </li>
