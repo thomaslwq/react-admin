@@ -3,10 +3,7 @@ import $ from "jquery"
 import debounce from 'react-debouncing';
 export default class Sidemenu extends Component {
 
-  /* 初始化菜单 */
-  constructor(props){
-    super(props);
-  }
+
   // Sidebar
   initSidebar = () => {
     const CURRENT_URL = window.location.href.split('#')[0].split('?')[0],
@@ -170,22 +167,22 @@ export default class Sidemenu extends Component {
                     <span className="fa fa-chevron-down"/></a>
                   <ul className="nav child_menu">
                     <li>
-                      <a href="form.html">General Form</a>
+                      <a href="/form">General Form</a>
                     </li>
                     <li>
-                      <a href="form_advanced.html">Advanced Components</a>
+                      <a href="/formAdvance">Advanced Components</a>
                     </li>
                     <li>
-                      <a href="form_validation.html">Form Validation</a>
+                      <a href="/formValidation">Form Validation</a>
                     </li>
                     <li>
-                      <a href="form_wizards.html">Form Wizard</a>
+                      <a href="/formWizards">Form Wizard</a>
                     </li>
                     <li>
-                      <a href="form_upload.html">Form Upload</a>
+                      <a href="/formUpload">Form Upload</a>
                     </li>
                     <li>
-                      <a href="form_buttons.html">Form Buttons</a>
+                      <a href="/formButtons">Form Buttons</a>
                     </li>
                   </ul>
                 </li>
@@ -195,16 +192,16 @@ export default class Sidemenu extends Component {
                     <span className="fa fa-chevron-down"/></a>
                   <ul className="nav child_menu">
                     <li>
-                      <a href="general_elements.html">General Elements</a>
+                      <a href="/generalElements">General Elements</a>
                     </li>
                     <li>
-                      <a href="media_gallery.html">Media Gallery</a>
+                      <a href="/mediaGallery">Media Gallery</a>
                     </li>
                     <li>
-                      <a href="typography.html">Typography</a>
+                      <a href="/typography">Typography</a>
                     </li>
                     <li>
-                      <a href="icons.html">Icons</a>
+                      <a href="/icons">Icons</a>
                     </li>
                     <li>
                       <a href="glyphicons.html">Glyphicons</a>
