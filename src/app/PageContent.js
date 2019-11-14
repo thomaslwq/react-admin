@@ -8,9 +8,6 @@ import FormValidation from "../form/formValidation"
 import FormWizards from "../form/formWizards"
 import FormUpload from "../form/formUpload"
 import FormButton from "../form/formButton"
-import GeneralElements from "../element/GeneralElements"
-import MediaGallery from "../element/MediaGallery"
-import Icons from '../element/Icons'
 import {BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom'
 const PageContent = () => {
   return (
@@ -27,10 +24,6 @@ const PageContent = () => {
           <Route path="/formWizards" exact component={FormWizards}></Route>           
           <Route path="/formUpload" exact component={FormUpload}></Route>  
           <Route path="/formButtons" exact component={FormButton}></Route>  
-          <Route path="/generalElements" exact component={GeneralElements}></Route>  
-          <Route path="/mediaGallery" exact component={MediaGallery}></Route>  
-          <Route path="/typography" exact component={Icons}></Route>  
-          <Route path="/icons" exact component={Icons}></Route>  
           <Redirect to="/"></Redirect>
         </Switch>
         {/* /page content */}

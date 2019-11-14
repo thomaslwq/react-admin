@@ -10,7 +10,7 @@ const Footer = () => {
             </div>
             <div className="clearfix" />
           </footer>
-          {/* /footer content */}       
+          {/* /footer content */}         
         </div>
     );
 };

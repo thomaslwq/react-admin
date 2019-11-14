@@ -10,7 +10,6 @@
     "react-virtualized": "^9.21.2"
   },
   "devDependencies": {
-    "jquery": "^3.4.1",
     "react-scripts": "3.2.0"
   },
   "scripts": {

@@ -3,7 +3,10 @@ import $ from "jquery"
 import debounce from 'react-debouncing';
 export default class Sidemenu extends Component {
 
-
+  /* 初始化菜单 */
+  constructor(props){
+    super(props);
+  }
   // Sidebar
   initSidebar = () => {
     const CURRENT_URL = window.location.href.split('#')[0].split('?')[0],
@@ -192,16 +195,16 @@ export default class Sidemenu extends Component {
                     <span className="fa fa-chevron-down"/></a>
                   <ul className="nav child_menu">
                     <li>
-                      <a href="/generalElements">General Elements</a>
+                      <a href="general_elements.html">General Elements</a>
                     </li>
                     <li>
-                      <a href="/mediaGallery">Media Gallery</a>
+                      <a href="media_gallery.html">Media Gallery</a>
                     </li>
                     <li>
-                      <a href="/typography">Typography</a>
+                      <a href="typography.html">Typography</a>
                     </li>
                     <li>
-                      <a href="/icons">Icons</a>
+                      <a href="icons.html">Icons</a>
                     </li>
                     <li>
                       <a href="glyphicons.html">Glyphicons</a>
