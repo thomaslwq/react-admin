@@ -3,8 +3,8 @@
 ![snapshot](https://github.com/thomaslwq/react-admin/blob/master/project/admin.jpg)
 ## How to begin?
 ```
-npm install //install all the dependencies
-npm start  //run
+npm install 
+npm start  
 ```
 
 ## Available Scripts
