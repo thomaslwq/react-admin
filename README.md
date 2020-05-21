@@ -2,6 +2,8 @@
 # Pay Attention
 This open source project is still under work.Some of the menus are still working,if you are instereting in it,you can concact me and make a contribution.The unfinished module are listed below. :)
 ![snapshot](https://github.com/thomaslwq/react-admin/blob/master/project/element.jpg)
+合并试验
+
 ## snapshot
 ![snapshot](https://github.com/thomaslwq/react-admin/blob/master/project/admin.jpg)
 ## How to begin?
